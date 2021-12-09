@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Raleway', sans-serif;
+}
+#about{
+margin-top:50px;
+margin-bottom:80px;
+animation: fadeInAnimation ease 3s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+#services{
+  padding-top:50px;
+  padding-bottom:80px;
+  background:#f4f6f7;
+}
+#contact{
+  margin-top:50px;
+  margin-bottom:80px;
+}
+.action{
+    background-image: url(https://www.ustaxshield.com/wp-content/uploads/2019/03/accounting-alone-application-938965.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  padding-top:60px;
+  padding-bottom:50px;
+}
+
+.navbar{
+background:#00f;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand{
+  font-size:25px;
+  font-family: 'Poppins', sans-serif;
+  padding-left:25px;
+  position: relative;
+  animation: log1 1s ;
+  animation-timing-function: linear;
+  position:relative;
+ 
+}
+/* keyframes */
+@keyframes log1 {
+  from {
+    top: 0px;
+  }
+ to{
+   bottom:30px;
+  }
+}
+.navbar ul li a{
+  font-family: 'Poppins', sans-serif;
+font-size:16px;
+color:white;
+margin-right:25px;
+animation: log3 3s ;
+  animation-timing-function: linear;
+  position:relative;
+ 
+}
+/* keyframes */
+@keyframes log3 {
+  from {
+    right: 0px;
+  }
+ to{
+   left:30px;
+  }
+}
+.h3, h3 {
+  font-size: 3rem;
+  text-align: center;
+  animation: log 5s ;
+  animation-timing-function: linear;
+  position:relative;
+}
+/* keyframes */
+@keyframes log {
+  from {
+    top: 0px;
+  }
+ to{
+   bottom:100px;
+  }
+}
+.h4{
+  font-weight:800;
+  font-family: 'Montserrat', sans-serif;
+}
+.icon{
+  color:blue;
+  padding-left:60px;
+  margin-bottom:10px;
+}
+.ftr{
+  background:#00f;
+  color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.btn{
+  background:#00f;
+  color:white;
+  
+
+}
+.ct{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+.h5, h5{
+  font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
+#home{
+background:#f4f6f7;
+padding-top:50px;
+padding-bottom:80px;
+}
+.carousel-caption h5{
+  font-size:3rem;
+  font-weight: 700;
+  animation: car 3s ;
+  animation-timing-function: linear;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.carousel-caption p{
+    font-weight: 700;
+    z-index:-1;
+}
+.carousel-caption p{
+  font-size:1.7rem;
+  animation: car 3s ;
+  animation-timing-function: linear;
+  position:relative;
+  z-index:1;
+}
+@keyframes car {
+  from {
+    top: 0px;
+  }
+ to{
+   bottom:100px;
+  }
+}
+
+.carousel-inner .carousel-item  img {
+  overflow: hidden;
+    background: #C04848; 
+  background:black;
+  
+  background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+ 
+
+}
+.ftr li{
+  list-style:none;
+  
+}
+/*card img hover*/
+.inner{
+  overflow:hidden;
+}
+.inner img
+{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+transform: scale(1.5);
+}
+.card-img-top{
+  height:150px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  width: 40px;
+  line-height: 40px;
+  z-index: 99;
+  text-align: center;
+ 
+}
